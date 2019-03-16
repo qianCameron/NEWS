@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+ Hello VM
+    ## 你看买不到我
+    #*
+    zhushi
+     *#
+
+    $!{value1}
+    ${signature}
+
+    #foreach($color in $list)
+    Color $!{foreach.index}/$!{foreach.count} :$!{color}
+    #end
+
+    #foreach($maps in $map.keySet())
+    Number  $!{foreach.index}/$!{foreach.count} : $!{maps} $!{map.get($maps)}
+    #end
+    $!{users.name}
+    $!{users.getName()}
+   #set($title="qianmenglong")
+   Include: #include("header.vm")
+   Parse: #parse("header.vm")
+
+
+</pre>>
+</body>>
+</html>>
